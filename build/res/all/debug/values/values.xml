@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/values/strings.xml -->
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/values/dimens.xml -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/values/strings.xml -->
+    <string name="acce_direct_a_synthese_menu">Accès direct à la synthèse</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">TripExpense</string>
+    <string name="button_ajouter">Ajouter</string>
+    <string name="button_ajouterNouveauDepense">Ajouter dépense</string>
+    <string name="button_ajouterNouveauParticipant">Ajouter un Participant</string>
+    <string name="button_ajouterNouveauProjet">Ajouter un projet</string>
+    <string name="button_ajouterNouvelEmprunt">Ajouter emprunt</string>
+    <string name="button_allerAGestionParticipant">Gestion des participants</string>
+    <string name="button_dateArrive">Date arrivée</string>
+    <string name="button_dateDebutDepense">Date début</string>
+    <string name="button_dateDepart">Date départ</string>
+    <string name="button_dateEmprunt">Date emprunt</string>
+    <string name="button_dateFinDepense">Date fin</string>
+    <string name="button_getContact">Recupérer un contact</string>
+    <string name="envoyer_email_menu">Envoyer la synthèse par email</string>
+    <string name="euros">euros</string>
+    <string name="gestion_depense_menu">Gestion des dépenses</string>
+    <string name="gestion_emprunt_menu">Gestion des emprunts</string>
+    <string name="gestion_participant_menu">Gestion Participant</string>
+    <string name="gestion_projet_menu">Gestion projet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="modifier_projet_menu">Modifier le projet</string>
+    <string name="open">Open</string>
+    <string name="pasDeDette">Aucune dette</string>
+    <string name="synthese_menu">Synthèse</string>
+    <string name="title_activity_ajouter_depense">Ajouter Depense</string>
+    <string name="title_activity_ajouter_emprunt">Ajouter Emprunt</string>
+    <string name="title_activity_ajouter_participant">Ajouter Participant</string>
+    <string name="title_activity_ajouter_projet">Ajouter Projet</string>
+    <string name="title_activity_fiche_projet">Fiche Projet</string>
+    <string name="title_activity_gestion_depense">Gestion Depense</string>
+    <string name="title_activity_gestion_emprunt">Gestion Emprunt</string>
+    <string name="title_activity_gestion_participant">Gestion Participant</string>
+    <string name="title_activity_gestion_projet">Gestion Projet</string>
+    <string name="titreTripExpense">Trip Expense</string>
+    <!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/values/styles.xml -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>

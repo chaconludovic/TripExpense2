@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gestion_participant_synthese_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_synthese"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/synthese_menu"/>
+	<item
+        android:id="@+id/gestion_participant_depense_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_depense"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/gestion_depense_menu"/>
+	<item
+        android:id="@+id/gestion_participant_emprunt_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_emprunt"
+		android:showAsAction="ifRoom|withText"
+        android:title="@string/gestion_emprunt_menu"/>
+</menu><!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/menu/gestion_participant.xml -->

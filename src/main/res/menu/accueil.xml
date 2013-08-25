@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gestion_accueil_projet_menu"
+        android:icon="@drawable/ic_menu_projet"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/gestion_projet_menu"/>
+
+    <item
+            android:id="@+id/gestion_accueil_synthese_menu"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_menu_synthese"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/synthese_menu"/>
+
+</menu>

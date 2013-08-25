@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Commun -->
+    <string name="button_ajouter">Ajouter</string>
+    <string name="button_dateArrive">Date arrivée</string>
+    <string name="button_dateDepart">Date départ</string>
+    <string name="app_name">TripExpense</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="euros">euros</string>
+    <!-- Page d accueil -->
+    <string name="titreTripExpense">Trip Expense</string>
+    <!-- Page de synthese -->
+    <string name="synthese_menu">Synthèse</string>
+    <string name="acce_direct_a_synthese_menu">Accès direct à la synthèse</string>
+    <string name="pasDeDette">Aucune dette</string>
+    <!-- Page gestion de projet -->
+    <string name="gestion_projet_menu">Gestion projet</string>
+    <string name="title_activity_gestion_projet">Gestion Projet</string>
+    <string name="button_ajouterNouveauProjet">Ajouter un projet</string>
+    <string name="title_activity_ajouter_projet">Ajouter Projet</string>
+    <!-- Page gestion de participant -->
+    <string name="button_allerAGestionParticipant">Gestion des participants</string>
+    <string name="title_activity_gestion_participant">Gestion Participant</string>
+    <string name="gestion_participant_menu">Gestion Participant</string>
+    <string name="button_ajouterNouveauParticipant">Ajouter un Participant</string>
+    <string name="title_activity_ajouter_participant">Ajouter Participant</string>
+    <string name="button_getContact">Recupérer un contact</string>
+    <!-- Page de gestion des dépenses -->
+    <string name="gestion_depense_menu">Gestion des dépenses</string>
+    <string name="title_activity_gestion_depense">Gestion Depense</string>
+    <string name="title_activity_ajouter_depense">Ajouter Depense</string>
+    <string name="button_dateDebutDepense">Date début</string>
+    <string name="button_dateFinDepense">Date fin</string>
+    <string name="button_ajouterNouveauDepense">Ajouter dépense</string>
+    <!-- Page de gestion des emprunts-->
+    <string name="gestion_emprunt_menu">Gestion des emprunts</string>
+    <string name="button_dateEmprunt">Date emprunt</string>
+    <string name="title_activity_gestion_emprunt">Gestion Emprunt</string>
+    <string name="title_activity_ajouter_emprunt">Ajouter Emprunt</string>
+    <string name="button_ajouterNouvelEmprunt">Ajouter emprunt</string>
+    <!-- Page de fiche de projet-->
+    <string name="title_activity_fiche_projet">Fiche Projet</string>
+    <string name="modifier_projet_menu">Modifier le projet</string>
+    <string name="envoyer_email_menu">Envoyer la synthèse par email</string>
+
+    <color name="text_color">#31D1F1</color>
+    <color name="white">#ffffff</color>
+    <string name="open">Open</string>
+</resources>

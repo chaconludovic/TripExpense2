@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/gestion_synthese_projet_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_projet"
+		android:showAsAction="ifRoom|withText"
+        android:title="@string/gestion_projet_menu"/>
+    <item
+        android:id="@+id/gestion_synthese_participant_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_participant"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/gestion_participant_menu"/>
+    <item
+        android:id="@+id/gestion_synthese_depense_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_depense"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/gestion_depense_menu"/>
+    <item
+        android:id="@+id/gestion_synthese_emprunt_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_emprunt"
+		android:showAsAction="ifRoom|withText"
+        android:title="@string/gestion_emprunt_menu"/>
+
+</menu>

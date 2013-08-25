@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/fiche_projet_ajouter_participant_menu"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_menu_participant"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/gestion_participant_menu"/>
+
+    <item
+            android:id="@+id/fiche_projet_modifier_projet_menu"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_menu_projet"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/modifier_projet_menu"/>
+
+    <item
+            android:id="@+id/fiche_projet_envoyer_email_menu"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_action_content_email"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/envoyer_email_menu"/>
+
+    <item
+            android:id="@+id/fiche_projet_synthese_menu"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_menu_synthese"
+            android:showAsAction="ifRoom|withText"
+            android:title="@string/synthese_menu"/>
+
+</menu><!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/menu/fiche_projet.xml -->

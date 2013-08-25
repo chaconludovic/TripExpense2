@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#deffc8">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Emprunt    "
+                android:id="@+id/textView"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="left"/>
+
+        <EditText
+                android:id="@+id/nomEmpruntText"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                >
+
+            <requestFocus/>
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Spinner
+            android:id="@+id/listeEmprunteur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    <Spinner
+            android:id="@+id/listeParticipant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal">
+
+        <EditText
+                android:id="@+id/montantText"
+                android:inputType="numberSigned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10">
+        </EditText>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/euros"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|center_horizontal">
+
+        <Button
+                android:id="@+id/btnChangeDateEmprunt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_dateEmprunt"
+                android:background="@drawable/btn_green"
+                style="@style/ButtonText"
+                />
+
+        <TextView
+                android:id="@+id/afficherDateEmprunt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal|bottom">
+
+        <Button
+                android:id="@+id/ajouterOuModifierEmpruntButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_ajouter"
+                android:onClick="onClick"
+                android:fontFamily="@android:string/ok"
+                android:background="@drawable/btn_blue"
+                style="@style/ButtonText"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

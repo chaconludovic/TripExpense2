@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#deffc8">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/nomParticipantText"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:ems="10">
+
+            <requestFocus/>
+        </EditText>
+
+        <Button
+                android:id="@+id/btnGetContact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_getContact"
+                android:onClick="onClick"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal">
+
+        <Button
+                android:id="@+id/btnChangeDateArrive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_dateArrive"
+                android:background="@drawable/btn_green"
+                style="@style/ButtonText"/>
+
+        <TextView
+                android:id="@+id/afficherDateArrive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal">
+
+        <Button
+                android:id="@+id/btnChangeDateDepart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/button_dateDepart"
+                android:background="@drawable/btn_green"
+                style="@style/ButtonText"/>
+
+        <TextView
+                android:id="@+id/afficherDateDepart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|bottom">
+
+        <Button
+                android:id="@+id/ajouterOuModifierParticipantButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_ajouter"
+                android:onClick="onClick"
+                android:background="@drawable/btn_blue"
+                style="@style/ButtonText"/>
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/layout/activity_ajouter_participant.xml -->

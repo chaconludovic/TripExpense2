@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  
+    <item
+        android:id="@+id/gestion_emprunt_synthese_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_synthese"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/synthese_menu"/>
+   <item
+        android:id="@+id/gestion_emprunt_participant_menu"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_participant"
+		android:showAsAction="ifRoom|withText" 
+        android:title="@string/gestion_participant_menu"/>
+</menu><!-- From: file:/C:/Users/ludovic/ProjetIntellij/TripExpenseGradle/src/main/res/menu/gestion_emprunt.xml -->

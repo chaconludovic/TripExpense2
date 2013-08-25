@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res" >
+            <file
+                name="btn_blue"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\btn_blue.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_green"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\btn_green.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_accueil"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_accueil.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_accueil_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_accueil_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_depense.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_depense_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_depense_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_emprunt.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_emprunt_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_emprunt_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_participant.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_participant_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_participant_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_projet.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_projet_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_projet_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_synthese.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_synthese_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\fond_ecran_synthese_img.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_content_email"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_action_content_email.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_error"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_action_error.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_depense_course"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_depense_course.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_depense_essence"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_depense_essence.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_menu_depense.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_menu_emprunt.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_menu_participant.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_menu_projet.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-hdpi\ic_menu_synthese.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_accueil_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_accueil_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_depense_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_depense_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_emprunt_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_emprunt_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_participant_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_participant_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_projet_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_projet_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_synthese_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-ldpi\fond_ecran_synthese_img.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_accueil_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_accueil_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_depense_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_depense_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_emprunt_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_emprunt_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_participant_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_participant_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_projet_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_projet_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_synthese_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\fond_ecran_synthese_img.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_content_email"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_action_content_email.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_action_error"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_action_error.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_menu_depense.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_menu_emprunt.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_menu_participant.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_menu_projet.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-mdpi\ic_menu_synthese.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_accueil_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_accueil_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_depense_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_depense_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_emprunt_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_emprunt_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_participant_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_participant_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_projet_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_projet_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="fond_ecran_synthese_img"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\fond_ecran_synthese_img.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_content_email"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_action_content_email.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_error"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_action_error.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_menu_depense.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_menu_emprunt.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_menu_participant.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_menu_projet.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_menu_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xhdpi\ic_menu_synthese.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_action_content_email"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xxhdpi\ic_action_content_email.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="activity_accueil"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_accueil.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ajouter_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_ajouter_depense.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ajouter_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_ajouter_emprunt.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ajouter_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_ajouter_participant.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_ajouter_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_ajouter_projet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_fiche_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_fiche_projet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_gestion_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_gestion_depense.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_gestion_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_gestion_emprunt.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_gestion_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_gestion_participant.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_gestion_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_gestion_projet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\activity_synthese.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ligne_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\ligne_depense.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ligne_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\ligne_emprunt.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ligne_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\ligne_participant.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ligne_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\ligne_projet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ligne_synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\layout\ligne_synthese.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="accueil"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\accueil.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="fiche_projet"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\fiche_projet.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="gestion_depense"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\gestion_depense.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="gestion_emprunt"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\gestion_emprunt.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="gestion_participant"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\gestion_participant.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="synthese"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\menu\synthese.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values\dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values\strings.xml"
+                qualifiers="" >
+                <string name="button_dateFinDepense" >Date fin
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="title_activity_gestion_depense" >Gestion Depense
+                </string>
+                <string name="button_dateArrive" >Date arrivée
+                </string>
+                <string name="pasDeDette" >Aucune dette
+                </string>
+                <string name="title_activity_ajouter_participant" >Ajouter Participant
+                </string>
+                <string name="button_dateEmprunt" >Date emprunt
+                </string>
+                <string name="button_ajouterNouveauParticipant" >Ajouter un Participant
+                </string>
+                <string name="title_activity_gestion_participant" >Gestion Participant
+                </string>
+                <string name="button_ajouterNouveauProjet" >Ajouter un projet
+                </string>
+                <string name="synthese_menu" >Synthèse
+                </string>
+                <string name="gestion_depense_menu" >Gestion des dépenses
+                </string>
+                <string name="button_dateDebutDepense" >Date début
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="title_activity_ajouter_projet" >Ajouter Projet
+                </string>
+                <string name="button_getContact" >Recupérer un contact
+                </string>
+                <string name="button_ajouter" >Ajouter
+                </string>
+                <string name="title_activity_fiche_projet" >Fiche Projet
+                </string>
+                <string name="modifier_projet_menu" >Modifier le projet
+                </string>
+
+                <color name="text_color" >#31D1F1
+                </color>
+
+                <string name="button_ajouterNouveauDepense" >Ajouter dépense
+                </string>
+                <string name="titreTripExpense" >Trip Expense
+                </string>
+                <string name="title_activity_gestion_projet" >Gestion Projet
+                </string>
+                <string name="button_allerAGestionParticipant" >Gestion des participants
+                </string>
+                <string name="acce_direct_a_synthese_menu" >Accès direct à la synthèse
+                </string>
+                <string name="open" >Open
+                </string>
+                <string name="gestion_emprunt_menu" >Gestion des emprunts
+                </string>
+                <string name="gestion_participant_menu" >Gestion Participant
+                </string>
+
+                <color name="white" >#ffffff
+                </color>
+
+                <string name="euros" >euros
+                </string>
+                <string name="button_dateDepart" >Date départ
+                </string>
+                <string name="title_activity_ajouter_depense" >Ajouter Depense
+                </string>
+                <string name="button_ajouterNouvelEmprunt" >Ajouter emprunt
+                </string>
+                <string name="app_name" >TripExpense
+                </string>
+                <string name="envoyer_email_menu" >Envoyer la synthèse par email
+                </string>
+                <string name="gestion_projet_menu" >Gestion projet
+                </string>
+                <string name="title_activity_ajouter_emprunt" >Ajouter Emprunt
+                </string>
+                <string name="title_activity_gestion_emprunt" >Gestion Emprunt
+                </string>
+            </file>
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values\styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style name="ButtonText" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+#ffffff
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:layout_margin">
+3dp
+                    </item>
+                    <item name="android:textSize">
+30dp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:shadowColor">
+#000000
+                    </item>
+                    <item name="android:shadowDx">
+1
+                    </item>
+                    <item name="android:shadowDy">
+1
+                    </item>
+                    <item name="android:shadowRadius">
+2
+                    </item>
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values-sw720dp-land\dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values-v11\styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\values-v14\styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="pref_data_sync"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\xml\pref_data_sync.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_general"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\xml\pref_general.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_headers"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\xml\pref_headers.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="pref_notification"
+                path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\main\res\xml\pref_notification.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\build\res\rs\debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\ludovic\ProjetIntellij\TripExpenseGradle\src\debug\res" />
+    </dataSet>
+
+</merger>

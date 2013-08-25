@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#deffc8">
+
+     <EditText
+          android:id="@+id/nomProjetText"
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:ems="10" >
+          <requestFocus />
+      </EditText>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal|bottom">
+
+        <Button
+            android:id="@+id/ajouterOuModifierProjetButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ajouter"
+            android:onClick="onClick"
+            android:background="@drawable/btn_blue" style="@style/ButtonText"/>
+    </LinearLayout>
+
+
+</LinearLayout>

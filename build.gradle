@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.5+'
+    }
+}
+
+
+
+apply plugin: 'android'
+
+repositories {
+    maven {
+        url 'http://google-api-client-libraries.appspot.com/mavenrepo'
+    }
+
+    maven {
+        url 'http://repo1.maven.org/maven2'
+    }
+}
+
+
+dependencies {
+    compile files ('libs/android-support-v4.jar')
+    compile (group: 'com.google.guava', name: 'guava', version: '14.0.1')
+	compile (group: 'joda-time', name: 'joda-time', version: '2.2')
+	compile (group: 'junit', name: 'junit', version: '4.5')
+
+}	
+
+task wrapper(type: org.gradle.api.tasks.wrapper.Wrapper) {
+    gradleVersion = '1.6'
+}
+
+
+dependencies {
+    instrumentTestCompile "junit:junit:4.5+"        
+}
+
+android {
+    compileSdkVersion 17
+	buildToolsVersion "17"
+	defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 15
+    }
+}

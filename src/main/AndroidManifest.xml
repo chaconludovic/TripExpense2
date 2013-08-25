@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.eldoraludo.tripexpense"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="15"
+            android:targetSdkVersion="15"/>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:uiOptions="splitActionBarWhenNarrow">
+
+        <uses-library android:name="android.test.runner"/>
+
+        <activity
+                android:name="com.eldoraludo.tripexpense.AccueilActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.eldoraludo.tripexpense.SyntheseActivity"
+                android:label="@string/synthese_menu"
+                android:parentActivityName="com.eldoraludo.tripexpense.AccueilActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.AccueilActivity"/>
+        </activity>
+
+        <activity
+                android:name="com.eldoraludo.tripexpense.GestionProjetActivity"
+                android:label="@string/title_activity_gestion_projet"
+                android:parentActivityName="com.eldoraludo.tripexpense.AccueilActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.AccueilActivity"/>
+        </activity>
+        <activity
+                android:name="com.eldoraludo.tripexpense.AjouterProjetActivity"
+                android:label="@string/title_activity_ajouter_projet"
+                android:parentActivityName="com.eldoraludo.tripexpense.GestionProjetActivity"/>
+
+        <activity
+                android:name="com.eldoraludo.tripexpense.GestionParticipantActivity"
+                android:label="@string/title_activity_gestion_participant"
+                android:parentActivityName="com.eldoraludo.tripexpense.FicheProjet">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.FicheProjet"/>
+        </activity>
+        <activity
+                android:name="com.eldoraludo.tripexpense.AjouterParticipantActivity"
+                android:label="@string/title_activity_ajouter_participant"/>
+
+        <activity
+                android:name="com.eldoraludo.tripexpense.GestionDepenseActivity"
+                android:label="@string/title_activity_gestion_depense"
+                android:parentActivityName="com.eldoraludo.tripexpense.SyntheseActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.SyntheseActivity"/>
+        </activity>
+        <activity
+                android:name="com.eldoraludo.tripexpense.AjouterDepenseActivity"
+                android:label="@string/title_activity_ajouter_depense"
+                android:parentActivityName="com.eldoraludo.tripexpense.GestionDepenseActivity"/>
+        <activity
+                android:name="com.eldoraludo.tripexpense.GestionEmpruntActivity"
+                android:label="@string/title_activity_gestion_emprunt"
+                android:parentActivityName="com.eldoraludo.tripexpense.SyntheseActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.SyntheseActivity"/>
+        </activity>
+        <activity
+                android:name="com.eldoraludo.tripexpense.AjouterEmpruntActivity"
+                android:label="@string/title_activity_ajouter_emprunt"
+                android:parentActivityName="com.eldoraludo.tripexpense.GestionEmpruntActivity"/>
+        <activity
+                android:name=".FicheProjetActivity"
+                android:label="@string/title_activity_fiche_projet"
+                android:parentActivityName="com.eldoraludo.tripexpense.SyntheseActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value="com.eldoraludo.tripexpense.SyntheseActivity"/>
+        </activity>
+    </application>
+    <instrumentation
+            android:name="android.test.InstrumentationTestRunner"
+            android:targetPackage="com.eldoraludo.tripexpense"
+            android:label="My App Tests"/>
+</manifest>
